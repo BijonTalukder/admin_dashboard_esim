@@ -1,7 +1,7 @@
 version: '3'
 services:
   admin_dashboard_esim:
-    image: ${DOCKERHUB_USER}/admin_dashboard_esim:latest
+    image: bijontalukder/admin_dashboard_esim:latest
     container_name: admin_dashboard_esim
     restart: always
     ports:
